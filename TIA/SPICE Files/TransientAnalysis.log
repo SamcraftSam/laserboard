@@ -1,0 +1,15 @@
+LTspice 24.1.9 for Windows
+Circuit: Z:\home\alex\Downloads\DesignFiles\SPICE Files\TransientAnalysis.net
+Start Time: Sat Nov  8 05:46:14 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.218 seconds.
+
+Files loaded:
+Z:\home\alex\Downloads\DesignFiles\SPICE Files\TransientAnalysis.net
+C:\users\alex\AppData\Local\LTspice\lib\sub\AD8655.sub
+

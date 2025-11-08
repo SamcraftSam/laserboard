@@ -1,0 +1,11 @@
+﻿Quantity,Reference Designator,Model
+1,Rf,"82.5 k ohm, 0603, Thin Film, 0.5%"
+1,Rg2,"162  ohm, 0603, Thin Film, 0.5%"
+1,Rf2,"825  ohm, 0603, Thin Film, 0.5%"
+1,Rfilter,"487  ohm, 0603, Thin Film, 0.5%"
+1,Cf,"2.7 pF, 0603, C0G, 5%"
+1,Cfilter,"330 pF, 0603, C0G, 5%"
+4,"Cbp+,Cbp-,Cbp2+,Cbp2-","100 nF, 0603, X7R, 20%"
+2,"Ctant+,Ctant-","10 µF, 6032, tantalum, 20%"
+2,"U1,U2","AD8656, SOIC"
+1,D1,Custom

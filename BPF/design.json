@@ -1,0 +1,64 @@
+{
+  "Name": "Filter Wizard Design",
+  "Description": "Filter Wizard Design",
+  "Tool": "FW",
+  "Version": "1.2",
+  "Design": {
+    "visitedTabs": [
+      "filter-type",
+      "specifications",
+      "components",
+      "tolerances",
+      "next-steps"
+    ],
+    "filterType": "bandPass",
+    "specifications": {
+      "gain": 3,
+      "gainUnit": "dB",
+      "passbandAttenuation": -4.5,
+      "passbandFrequency": 500000,
+      "stopbandAttenuation": -6,
+      "stopbandFrequency": 1000000,
+      "filterResponseValue": 0,
+      "filterResponseSlider": "100",
+      "centerFrequency": 707000
+    },
+    "components": {
+      "vsPlus": 2.75,
+      "vsMinus": -2.75,
+      "optimization": "RecommendedSpecificComponents",
+      "optimizationPreference": "specific",
+      "compensateForGbw": false,
+      "preferredAlgorithms": {
+        "sallenKey|lowPass": "lowpassV2"
+      },
+      "referenceVoltage": 0,
+      "stages": [
+        {
+          "stageLetter": "A",
+          "componentSizing": 24,
+          "gain": -1,
+          "gainEnabled": false,
+          "implementation": "deliyannisFriend",
+          "opAmps": "AD8656"
+        }
+      ],
+      "recommendedAmps": [],
+      "sortOrder": [
+        0
+      ]
+    },
+    "tolerances": {
+      "resistorTolerance": "1%",
+      "capacitorTolerance": "5%",
+      "inductorTolerance": "5%",
+      "opAmpGbwTolerance": "20%",
+      "resistorPreferredSeries": "E96",
+      "capacitorPreferredSeries": "E24",
+      "inductorPreferredSeries": "E12"
+    },
+    "nextSteps": {}
+  },
+  "CreatedDate": "2025-11-08 05:52:57 PM",
+  "UpdatedDate": "2025-11-08 05:52:57 PM"
+}

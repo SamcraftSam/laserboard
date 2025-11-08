@@ -1,0 +1,15 @@
+LTspice 24.1.9 for Windows
+Circuit: Z:\home\alex\GitRepos\laserboard\AF_Simulation\SPICE Files\NoiseAnalysis.net
+Start Time: Sat Nov  8 06:13:36 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.184 seconds.
+
+Files loaded:
+Z:\home\alex\GitRepos\laserboard\AF_Simulation\SPICE Files\NoiseAnalysis.net
+C:\users\alex\AppData\Local\LTspice\lib\sub\AD8655.sub
+

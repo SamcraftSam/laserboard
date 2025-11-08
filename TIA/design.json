@@ -1,0 +1,41 @@
+{
+	"Name": "SavedDesignPD1762549462017.json",
+	"Description": "Photodiode Design",
+	"Tool": "PD",
+	"Design": {
+		"photodiode": {
+			"sensor": "",
+			"reverseVoltage": 5,
+			"biasPreference": "negative",
+			"capacitance": 2.5e-11,
+			"shuntResistance": 5000000000,
+			"peakCurrent": 0.000004,
+			"peakVoltage": 2,
+			"speedPreference": "bandwidth",
+			"speed": 1000000,
+			"peaking": 0.707107,
+			"stages": "2",
+			"opAmps": [
+				{
+					"stage": "stage_1",
+					"opAmp": "AD8656",
+					"locked": false,
+					"found": true,
+					"valid": true
+				},
+				{
+					"stage": "stage_2",
+					"opAmp": "AD8656",
+					"locked": false,
+					"found": true,
+					"valid": true
+				}
+			],
+			"frequencyResponseUnit": "dB",
+			"noiseGainUnit": "dB"
+		}
+	},
+	"CreatedDate": "2025-11-07 09:04:22 PM",
+	"UpdatedDate": "2025-11-07 09:04:22 PM",
+	"JsonVersion": "1.0.0"
+}
