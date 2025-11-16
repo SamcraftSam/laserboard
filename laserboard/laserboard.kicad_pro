@@ -358,12 +358,60 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -417,8 +465,24 @@
   },
   "sheets": [
     [
-      "5c6ee162-de1a-47ba-b83f-d39bc99f4515",
+      "e16e01f0-0bad-4b53-aa1c-049f3dd485f3",
       "Root"
+    ],
+    [
+      "8fd4e732-cf2a-4077-8e50-6460ba0cc0d9",
+      "RX frontend"
+    ],
+    [
+      "0fd80b90-714e-4b5a-a7b6-8a4fdb31fb36",
+      "TX frontend"
+    ],
+    [
+      "f8a0f1b8-fb9a-4e27-8552-e224cd41ea02",
+      "Didital"
+    ],
+    [
+      "d1adce5e-e518-4772-9792-6a9c80b4b037",
+      "Power"
     ]
   ],
   "text_variables": {}

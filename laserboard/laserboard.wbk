@@ -17,30 +17,19 @@
         "right": 70,
         "top": 30
       },
-      "measurements": [
-        {
-          "expr": "MAX_AT vdb(OPAMP_OUT_BPF)",
-          "format": "3~Hz"
-        },
-        {
-          "expr": "MAX_AT vdb(OPAMP_OUT_BPF_1st)",
-          "format": "3~Hz"
-        },
-        {
-          "expr": "MAX vdb(OPAMP_OUT_LP)",
-          "format": "3~dB"
-        },
-        {
-          "expr": "MAX vdb(OPAMP_OUT_BPF)",
-          "format": "3~dB"
-        },
-        {
-          "expr": "MAX vdb(OPAMP_OUT_BPF_1st)",
-          "format": "3~dB"
-        }
-      ],
+      "measurements": [],
       "showGrid": true,
       "traces": [
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/AGC_OUT) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(/BPF_OUT) (gain)",
+          "trace_type": 521
+        },
         {
           "color": "rgb(228, 26, 28)",
           "signal": "V(/BPW34) (gain)",
@@ -48,13 +37,8 @@
         },
         {
           "color": "rgb(247, 129, 191)",
-          "signal": "V(/TIA-OUT) (gain)",
-          "trace_type": 521
-        },
-        {
-          "color": "rgb(102, 194, 165)",
           "cursor1": {
-            "position": 592553.0975545638,
+            "position": 736432.365590269,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
@@ -62,17 +46,7 @@
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
-          "signal": "V(OPAMP_OUT_BPF) (gain)",
-          "trace_type": 521
-        },
-        {
-          "color": "rgb(141, 160, 203)",
-          "signal": "V(OPAMP_OUT_BPF_1st) (gain)",
-          "trace_type": 521
-        },
-        {
-          "color": "rgb(252, 141, 98)",
-          "signal": "V(OPAMP_OUT_LP) (gain)",
+          "signal": "V(/TIA-OUT) (gain)",
           "trace_type": 521
         }
       ]
@@ -80,40 +54,48 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 100n 20u 0",
+        ".tran 10n 20u 3.2u",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
         ".probe allp"
       ],
       "dottedSecondary": true,
+      "fixedY1scale": {
+        "max": 5.0,
+        "min": -1.0
+      },
       "margins": {
         "bottom": 45,
         "left": 70,
-        "right": 70,
+        "right": 140,
         "top": 30
       },
-      "measurements": [],
+      "measurements": [
+        {
+          "expr": "PP V(/BPF_OUT)",
+          "format": "3~V"
+        },
+        {
+          "expr": "PP V(/AGC_OUT)",
+          "format": "3~V"
+        }
+      ],
       "showGrid": true,
       "traces": [
         {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/AGC_OUT)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(179, 179, 179)",
+          "signal": "V(/BPF_OUT)",
+          "trace_type": 257
+        },
+        {
           "color": "rgb(166, 86, 40)",
           "signal": "V(/TIA-OUT)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(255, 255, 51)",
-          "signal": "V(OPAMP_OUT_BPF)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(102, 194, 165)",
-          "signal": "V(OPAMP_OUT_BPF_1st)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(247, 129, 191)",
-          "signal": "V(OPAMP_OUT_LP)",
           "trace_type": 257
         }
       ]
@@ -121,7 +103,7 @@
     {
       "analysis": "FFT",
       "commands": [
-        "linearize V(/TIA-OUT) V(OPAMP_OUT_BPF) V(OPAMP_OUT_BPF_1st) V(OPAMP_OUT_LP)\nfft V(/TIA-OUT) V(OPAMP_OUT_BPF) V(OPAMP_OUT_BPF_1st) V(OPAMP_OUT_LP)",
+        "linearize V(/AGC_OUT) V(/BPF_OUT) V(/BPW34) V(/TIA-OUT)\nfft V(/AGC_OUT) V(/BPF_OUT) V(/BPW34) V(/TIA-OUT)",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -138,41 +120,23 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/TIA-OUT)",
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/AGC_OUT)",
           "trace_type": 513
         },
         {
           "color": "rgb(55, 126, 184)",
-          "cursor1": {
-            "position": 653000.0,
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
-          },
-          "cursorD": {
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
-          },
-          "signal": "V(OPAMP_OUT_BPF)",
+          "signal": "V(/BPF_OUT)",
+          "trace_type": 513
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/BPW34)",
           "trace_type": 513
         },
         {
           "color": "rgb(77, 175, 74)",
-          "cursor2": {
-            "position": 653000.0,
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
-          },
-          "cursorD": {
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
-          },
-          "signal": "V(OPAMP_OUT_BPF_1st)",
-          "trace_type": 513
-        },
-        {
-          "color": "rgb(152, 78, 163)",
-          "signal": "V(OPAMP_OUT_LP)",
+          "signal": "V(/TIA-OUT)",
           "trace_type": 513
         }
       ]

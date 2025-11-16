@@ -1,26 +1,36 @@
-* AC Analysis, 500k bandPass, 2nd order Bessel, 1 stage using AD8656
+* AC Analysis, 900k bandPass, 4th order Butterworth Bessel 0.67, 2 stages using AD8656
 
 * Input signal for AC and transient sinusoidal analysis
-VIN IN 0 AC 1 DC 0 SINE(0 1.78 220k)
+VIN IN 0 AC 1 DC 0 SINE(0 951m 125k)
 * VNOISE IN 0 AC 0 DC 0
 
-XA IN OUT VCCG VEEG 0 deliyannisFriendbandPassStageA
+XA IN OUTA VCCG VEEG 0 deliyannisFriendbandPassStageA
+XB OUTA OUT VCCG VEEG 0 deliyannisFriendbandPassStageB
 
 VP VCCG 0 2.75
 VM VEEG 0 -2.75
 
 *Simulation directive lines for AC Analysis
-.AC DEC 100 225k 2.22Meg
-*.TRAN 1n 27.9u
-*.NOISE V(OUT) VNOISE DEC 100 225k 2.22Meg
+.AC DEC 100 127k 3.33Meg
+*.TRAN 1n 17u
+*.NOISE V(OUT) VNOISE DEC 100 127k 3.33Meg
 .SUBCKT deliyannisFriendbandPassStageA IN OUT VCC VEE GND
 X1 GND INM VCC VEE OUT AD8656
-R1 IN 1 30.1k
-R2 1 GND 7.32k
-R5 INM OUT 86.6k
-C1 1 OUT 10p
-C2 1 INM 10p
+R1 IN 1 8.2k
+R2 1 GND 8.2k
+R5 INM OUT 33k
+C1 1 OUT 15p
+C2 1 INM 15p
 .ENDS deliyannisFriendbandPassStageA
+
+.SUBCKT deliyannisFriendbandPassStageB IN OUT VCC VEE GND
+X1 GND INM VCC VEE OUT AD8656
+R1 IN 1 7.5k
+R2 1 GND 6.8k
+R5 INM OUT 27k
+C1 1 OUT 33p
+C2 1 INM 33p
+.ENDS deliyannisFriendbandPassStageB
 
 * AD8656 SPICE Macro-model
 * Description: Amplifier
