@@ -241,7 +241,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "receiver_analog.kicad_pro",
+    "filename": "TX_SIM(Standalone).kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -387,6 +387,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": "TX_SIM(Standalone).wbk"
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -401,7 +409,7 @@
   },
   "sheets": [
     [
-      "5c6ee162-de1a-47ba-b83f-d39bc99f4515",
+      "28f09be2-4e7f-4a02-8379-9e2ac88aff60",
       "Root"
     ]
   ],
