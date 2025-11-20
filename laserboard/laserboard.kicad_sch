@@ -39,6 +39,36 @@
 				(justify left top)
 			)
 		)
+		(pin "AM_EN" input
+			(at 82.55 110.49 90)
+			(uuid "a68fcaab-b0f3-4274-9765-34e63da528dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DM_EN" input
+			(at 85.09 110.49 90)
+			(uuid "e96cfae1-1571-48fa-9618-d7dcfe57ff1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX_D_IN" input
+			(at 97.79 118.11 0)
+			(uuid "e1fc148d-3e98-436a-86c8-dc33239ff270")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "laserboard"
 				(path "/e16e01f0-0bad-4b53-aa1c-049f3dd485f3"

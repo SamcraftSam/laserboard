@@ -2378,7 +2378,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 48.26) (xy 39.37 55.88)
+			(xy 39.37 48.26) (xy 39.37 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3287,7 +3287,7 @@
 		(uuid "58600ad6-ae15-4fc4-97d7-bc5158f6385d")
 	)
 	(label "Vref_Filter"
-		(at 39.37 55.88 180)
+		(at 39.37 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3663,12 +3663,11 @@
 		(dnp no)
 		(uuid "155ef057-e5e4-4167-b9a5-d315ba3a025a")
 		(property "Reference" "C20"
-			(at 33.528 64.516 0)
+			(at 25.908 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "10n"
