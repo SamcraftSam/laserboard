@@ -2067,6 +2067,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "RX reception + filtration + amplification. \nFilter is designed to bandpass 300kHz to 1MHz. Also it blocks DC light. \nPGA amplifier can be used to control the gain and increase SNR of the signal.\nFor testing, testpoints are available. \nFor external analysis, outputs are traced* to the connectors (connect solderjumpers for this)\n* - connected hardware can change frequency characteristics of the frontend"
+		(exclude_from_sim no)
+		(at 217.17 17.78 0)
+		(size 66.04 48.26)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b11e2a1b-ee98-4ec9-91c5-673e62c23884")
+	)
 	(junction
 		(at 160.02 95.25)
 		(diameter 0)
@@ -4227,8 +4247,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "2f8d75e8-bb70-47e0-a59a-48be32a00fd8")
 		(property "Reference" "JP1"
 			(at 13.716 42.164 90)
