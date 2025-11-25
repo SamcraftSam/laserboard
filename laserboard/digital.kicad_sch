@@ -3435,7 +3435,7 @@
 	)
 	(text "Do I want output on the ADC0 pin or the cleanest\nmeasurement for MCU?\n"
 		(exclude_from_sim no)
-		(at 242.824 127.762 0)
+		(at 255.524 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3556,7 +3556,7 @@
 		(uuid "298f026b-6227-4888-863a-245a93576888")
 	)
 	(junction
-		(at 228.6 139.7)
+		(at 257.81 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bd311c9-1332-4964-8356-9fdbaae03622")
@@ -4041,16 +4041,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 134.62) (xy 215.9 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2555774e-d402-4696-b1ca-7066f8928795")
-	)
-	(wire
-		(pts
 			(xy 54.61 93.98) (xy 41.91 93.98)
 		)
 		(stroke
@@ -4248,6 +4238,16 @@
 			(type default)
 		)
 		(uuid "40810cce-fd17-4ca7-a05b-6b4dba69a6a4")
+	)
+	(wire
+		(pts
+			(xy 219.71 127) (xy 218.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e01ecc-6a77-4973-877a-ebb8fc6c46e4")
 	)
 	(wire
 		(pts
@@ -4541,6 +4541,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 127) (xy 236.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6504c6e6-10be-4380-8d69-ab0470669f80")
+	)
+	(wire
+		(pts
 			(xy 151.13 40.64) (xy 148.59 40.64)
 		)
 		(stroke
@@ -4571,7 +4581,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 132.08) (xy 243.84 132.08)
+			(xy 257.81 132.08) (xy 273.05 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4961,6 +4971,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 134.62) (xy 219.71 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995a45cb-fe0c-4a5b-abe5-dba38a0dc5e7")
+	)
+	(wire
+		(pts
 			(xy 205.74 29.21) (xy 205.74 31.75)
 		)
 		(stroke
@@ -5051,6 +5071,26 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 134.62) (xy 228.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3061f55-213e-445f-88ff-b7c9ac4b8d85")
+	)
+	(wire
+		(pts
+			(xy 227.33 127) (xy 228.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c5cab2-f5df-408d-9ad3-140d9bc0fe56")
+	)
+	(wire
+		(pts
 			(xy 148.59 19.05) (xy 148.59 20.32)
 		)
 		(stroke
@@ -5121,7 +5161,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 132.08) (xy 215.9 132.08)
+			(xy 200.66 132.08) (xy 218.44 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5201,7 +5241,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 139.7) (xy 232.41 139.7)
+			(xy 257.81 139.7) (xy 261.62 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5321,7 +5361,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 139.7) (xy 228.6 139.7)
+			(xy 200.66 139.7) (xy 257.81 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5398,6 +5438,16 @@
 			(type default)
 		)
 		(uuid "d11ef981-48bc-4bdf-9957-86f18f6679d9")
+	)
+	(wire
+		(pts
+			(xy 218.44 127) (xy 218.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14c923f-48c3-449b-b2ec-3deb3fa3bff3")
 	)
 	(wire
 		(pts
@@ -5721,6 +5771,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 134.62) (xy 236.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92ca680-15b9-4fd6-a59b-c1a26721ec3a")
+	)
+	(wire
+		(pts
 			(xy 240.03 21.59) (xy 240.03 20.32)
 		)
 		(stroke
@@ -5860,7 +5920,7 @@
 		(uuid "16d60fbd-4bb3-4ee3-ac70-a16f08f69d59")
 	)
 	(label "GPIO26_ADC0"
-		(at 243.84 132.08 180)
+		(at 273.05 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6634,7 +6694,7 @@
 	)
 	(hierarchical_label "RX_IN"
 		(shape input)
-		(at 232.41 139.7 0)
+		(at 261.62 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8465,16 +8525,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 242.57 120.65 0)
+		(at 232.41 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3add48b2-5435-4e82-92d5-dbb9b45934a3")
 		(property "Reference" "D3"
-			(at 240.9825 114.3 0)
+			(at 232.664 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,15 +8541,15 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 240.9825 116.84 0)
+			(at 232.918 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 242.57 120.65 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 232.41 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,7 +8558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 120.65 0)
+			(at 232.41 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8508,7 +8567,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 242.57 120.65 0)
+			(at 232.41 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8517,7 +8576,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 242.57 120.65 0)
+			(at 232.41 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8675,6 +8734,82 @@
 			(project "laserboard"
 				(path "/e16e01f0-0bad-4b53-aa1c-049f3dd485f3/f8a0f1b8-fb9a-4e27-8552-e224cd41ea02"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 232.41 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43ed3e46-7d85-43a6-bb0b-a83ca014cfb1")
+		(property "Reference" "D4"
+			(at 232.664 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 232.918 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 232.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 232.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 232.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13639570-5d7e-430f-b4f1-040ec6ebdd59")
+		)
+		(pin "1"
+			(uuid "12966568-65bd-4ffc-904b-d5a9c8d4922e")
+		)
+		(instances
+			(project "laserboard"
+				(path "/e16e01f0-0bad-4b53-aa1c-049f3dd485f3/f8a0f1b8-fb9a-4e27-8552-e224cd41ea02"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9003,6 +9138,134 @@
 			(project "laserboard"
 				(path "/e16e01f0-0bad-4b53-aa1c-049f3dd485f3/f8a0f1b8-fb9a-4e27-8552-e224cd41ea02"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7839e329-d7a3-4a9f-8f09-5acc509e6aba")
+		(property "Reference" "#PWR061"
+			(at 245.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.1542 134.493 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce8b559b-abff-4496-ac2e-fee445daaeb1")
+		)
+		(instances
+			(project "laserboard"
+				(path "/e16e01f0-0bad-4b53-aa1c-049f3dd485f3/f8a0f1b8-fb9a-4e27-8552-e224cd41ea02"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b55dc02-91d9-4289-b0f7-ba5529b69e12")
+		(property "Reference" "#PWR062"
+			(at 245.11 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.1542 126.873 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a6bbda1-a9c6-4d41-a0bb-2966a1259350")
+		)
+		(instances
+			(project "laserboard"
+				(path "/e16e01f0-0bad-4b53-aa1c-049f3dd485f3/f8a0f1b8-fb9a-4e27-8552-e224cd41ea02"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9932,7 +10195,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 228.6 135.89 90)
+		(at 257.81 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9940,7 +10203,7 @@
 		(dnp no)
 		(uuid "d751e9ec-bbe7-4427-9685-e1d0205dd837")
 		(property "Reference" "JP6"
-			(at 227.33 130.302 90)
+			(at 256.54 130.302 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +10212,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 224.79 135.89 0)
+			(at 254 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,7 +10221,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 228.6 135.89 0)
+			(at 257.81 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,7 +10230,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 135.89 0)
+			(at 257.81 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9976,7 +10239,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 228.6 135.89 0)
+			(at 257.81 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,6 +10327,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 223.52 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df9c2680-2eea-4091-899d-29eba2848f95")
+		(property "Reference" "R30"
+			(at 223.52 121.7422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 223.52 124.0536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 223.52 125.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a512158b-a325-41ef-90dc-286086374f93")
+		)
+		(pin "2"
+			(uuid "1a5d8cf9-c3c6-419d-a394-2ce93b3e1e74")
+		)
+		(instances
+			(project "laserboard"
+				(path "/e16e01f0-0bad-4b53-aa1c-049f3dd485f3/f8a0f1b8-fb9a-4e27-8552-e224cd41ea02"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 54.61 85.09 0)
 		(unit 1)
@@ -10122,6 +10451,72 @@
 			(project "laserboard"
 				(path "/e16e01f0-0bad-4b53-aa1c-049f3dd485f3/f8a0f1b8-fb9a-4e27-8552-e224cd41ea02"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea38df9d-0a2e-4f1a-bc17-8b126bf406ba")
+		(property "Reference" "R28"
+			(at 223.52 129.3622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 223.52 131.6736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 223.52 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4edd72f2-9fb2-4b94-97d4-cae4a9315f28")
+		)
+		(pin "2"
+			(uuid "a2f7a2c7-8ba6-4c15-86c4-8e3a5381659a")
+		)
+		(instances
+			(project "laserboard"
+				(path "/e16e01f0-0bad-4b53-aa1c-049f3dd485f3/f8a0f1b8-fb9a-4e27-8552-e224cd41ea02"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -10288,7 +10683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 88.9 54.61 0)
 			(effects
 				(font
