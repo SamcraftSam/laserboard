@@ -4050,8 +4050,8 @@
 		(at 26.67 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "155ef057-e5e4-4167-b9a5-d315ba3a025a")
 		(property "Reference" "C20"
@@ -4070,7 +4070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 22.86 61.9252 0)
 			(effects
 				(font
@@ -7661,8 +7661,8 @@
 		(at 21.59 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "d8e91366-07a7-4703-bbb0-4e06f46835be")
 		(property "Reference" "R29"
@@ -7681,7 +7681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 23.368 64.77 90)
 			(effects
 				(font

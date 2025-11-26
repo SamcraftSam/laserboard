@@ -10343,7 +10343,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "470"
 			(at 223.52 124.0536 90)
 			(effects
 				(font
@@ -10473,7 +10473,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "470"
 			(at 223.52 131.6736 90)
 			(effects
 				(font
