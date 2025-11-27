@@ -5019,8 +5019,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4dbb64ce-2066-4e6c-be52-a894e4e9ecea")
 		(property "Reference" "JP3"
@@ -5308,8 +5308,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5eb149ff-1d38-4b89-9c88-6899341cbb22")
 		(property "Reference" "JP4"
