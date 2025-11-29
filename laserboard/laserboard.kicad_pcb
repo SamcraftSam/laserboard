@@ -135,9 +135,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "fab/")
 		)
 	)
 	(net 0 "")
@@ -25609,7 +25609,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "LiBoard - Dev-kit for LiFi RnD. \nHW revision - v1.0-Kurisu."
+	(gr_text "LiBoard - Dev-kit for LiFi RnD. \nHW revision - v1.0"
 		(at 109.525 102.325 0)
 		(layer "F.SilkS")
 		(uuid "da2e9485-b107-4fab-8c70-bb33023f327b")
