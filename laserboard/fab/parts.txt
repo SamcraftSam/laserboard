@@ -1,0 +1,273 @@
+
+C1,C2,C4,C35,C37
+0.1uF
+Capacitor_SMD:C_0402_1005Metric
+0402B104J250NT
+C301928
+100nF 25V X7R ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Search 
+C19,C21,C22,C24,C26,C27,C28,C29,C30,C31
+100n
+Capacitor_SMD:C_0402_1005Metric
+0402B104J250NT
+C301928
+100nF 25V X7R ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Search 
+C3
+2.7p
+Capacitor_SMD:C_0402_1005Metric
+0402CG2R7C500NT
+C1561
+2.7pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Search 
+C5,C6,C15,C16
+15p
+Capacitor_SMD:C_0402_1005Metric
+0402CG150J500NT
+C1548
+15pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Search 
+C7,C8
+33p
+Capacitor_SMD:C_0402_1005Metric
+0402CG330J500NT
+C1562
+33pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Search 
+C14
+22n
+Capacitor_SMD:C_0402_1005Metric
+0402B223K500NT
+C1532
+22nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Search 
+C17,C18,C32
+10u
+Capacitor_SMD:C_0805_2012Metric
+CL21A106KAYNNNE
+C15850
+10uF 25V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Search 
+C20
+10n
+Capacitor_SMD:C_0402_1005Metric
+CL05B103KB5NNNC
+C15195
+10nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Search 
+C23,C25
+1u
+Capacitor_SMD:C_0402_1005Metric
+CL02A105MQ4NQOC
+C20441333
+1uF 6.3V X5R ±20% 01005 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Search 
+C33,C36
+4.7uF
+Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_HandSolder
+TCP1A475M8R
+C307914
+-55℃~+125℃ 10V 4.7uF 9.3Ω@100kHz ±20% CASE-P-2012-12(mm) Tantalum Capacitors ROHS
+Search 
+C34
+100p
+Capacitor_SMD:C_0402_1005Metric
+0402CG101J500NT
+C1546
+100pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Search 
+D1
+BPW34-SMD
+OptoDevice:Osram_BPW34S-SMD
+BPW34S-Z
+C67891
+-40℃~+100℃ 150mW 2nA 32V 420nm~1120nm 60° 920nm SMD,6.2x3.7mm Photodiodes ROHS
+Search 
+D2
+LED
+LED_SMD:LED_0805_2012Metric
+VSMY1850ITX01
+C7389210
+-40℃~+105℃ 1.65V 100mA 190mW 30nm 5V 5mW/sr 60° 850nm 0805 Infrared LED Emitters ROHS
+Search 
+D3,D4,D5
+LED
+LED_SMD:LED_0603_1608Metric
+KT-0603R
+C2286
+-40℃~+85℃ 120° 2.4V 20mA 300mcd 40mW 615nm~630nm 645nm Red Water Clear 0603 LED Indication - Discrete ROHS
+Search 
+J2
+USB_C_Receptacle_USB2.0_16P
+Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal
+USB4105-GF-A-120
+C5184243
+-40℃~+85℃ 1 16P Female Type-C USB 2.0 SMD USB Connectors ROHS
+Search 
+N-MOS1
+~
+Package_TO_SOT_SMD:SOT-23
+BSH105-VB
+C22389088
+-55℃~+150℃ 1 N-Channel 1.25W 105pF 1V@250uA 20V 50mΩ@1.8V 55pF 6A 8.8nC@4.5V 865pF N-Channel SOT-23(TO-236) MOSFETs ROHS
+Search 
+R1
+20k
+Resistor_SMD:R_0402_1005Metric
+RCA0220KJLF
+C22356231
+-55℃~+155℃ 20kΩ 50V 62.5mW Thick Film Resistor ±200ppm/℃ ±5% 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R2,R3
+8.2k
+Resistor_SMD:R_0402_1005Metric
+RCT028K2JLF
+C174245
+-55℃~+155℃ 50V 62.5mW 8.2kΩ Thick Film Resistor ±200ppm/℃ ±5% 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R4
+33k
+Resistor_SMD:R_0402_1005Metric
+RCT0233KJLF
+C174259
+-55℃~+155℃ 33kΩ 50V 62.5mW Thick Film Resistor ±200ppm/℃ ±5% 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R5
+7.5k
+Resistor_SMD:R_0402_1005Metric
+RCA027K5FLF
+C22369562
+-55℃~+155℃ 50V 62.5mW 7.5kΩ Thick Film Resistor ±1% ±200ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R6
+6.8k
+Resistor_SMD:R_0402_1005Metric
+RCA026K8JLF
+C22356191
+-55℃~+155℃ 50V 6.8kΩ 62.5mW Thick Film Resistor ±200ppm/℃ ±5% 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R8
+27k
+Resistor_SMD:R_0402_1005Metric
+0402WGF2702TCE
+C25771
+-55℃~+155℃ 27kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R13
+40
+Resistor_SMD:R_0402_1005Metric
+RCT0239RJLF
+C174212
+-55℃~+155℃ 39Ω 50V 62.5mW Thick Film Resistor ±200ppm/℃ ±5% 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R14
+10
+Resistor_SMD:R_0402_1005Metric
+RCT0210RJLF
+C174147
+-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±400ppm/℃ ±5% 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R15
+75k
+Resistor_SMD:R_0402_1005Metric
+0402WGJ0753TCE
+C25570
+-55℃~+155℃ 50V 62.5mW 75kΩ Thick Film Resistor ±100ppm/℃ ±5% 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R16,R18,R31
+1k
+Resistor_SMD:R_0402_1005Metric
+RCT021KFLF
+C173697
+-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±200ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R19,R20
+27
+Resistor_SMD:R_0402_1005Metric
+RCT0227RJLF
+C174257
+-55℃~+155℃ 27Ω 50V 62.5mW Thick Film Resistor ±200ppm/℃ ±5% 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R21,R22
+5.1k
+Resistor_SMD:R_0402_1005Metric
+0402WGF5101TCE
+C25905
+-55℃~+155℃ 5.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R23,R24
+220k
+Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+0805W8F2203T5E
+C17556
+-55℃~+155℃ 125mW 150V 220kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Search 
+R27
+220
+Resistor_SMD:R_0402_1005Metric
+RCT02220RJLF
+C174233
+-55℃~+155℃ 220Ω 50V 62.5mW Thick Film Resistor ±200ppm/℃ ±5% 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R28,R30
+470
+Resistor_SMD:R_0402_1005Metric
+RCT02470RJLF
+C174152
+-55℃~+155℃ 470Ω 50V 62.5mW Thick Film Resistor ±200ppm/℃ ±5% 0402 Chip Resistor - Surface Mount ROHS
+Search 
+R29
+1.6M
+Resistor_SMD:R_0805_2012Metric
+FRC0805F1604TS
+C5121530
+-55℃~+155℃ 1.6MΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Search 
+U1
+AD8656
+Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+AD8656ARZ-REEL7
+C578804
+-40℃~+125℃ 100dB 10pA 11V/us 1pA 2 2.7V~5.5V 2.7nV/√Hz@10kHz 220mA 250uV 28MHz 4.5mA 400nV/℃ 5.5V Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Precision Op Amps ROHS
+Search 
+U2
+PGA112
+Package_SO:TSSOP-10_3x3mm_P0.5mm
+PGA112AIDGSR
+C470980
+-40℃~+125℃ 1 1.2uV/℃ 100uV 12.8V/us 12nV/√Hz@10kHz 2.2V~5.5V 330uA 5nA 5nA 60mA 7V Rail-to-Rail Input, Rail-to-Rail Output VSSOP-10-0.5mm Operational Amplifier ROHS
+Search 
+U3
+AD8655
+Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+AD8655ARZ-REEL
+C653086
+-40℃~+125℃ 1 105dB 10pA 11V/us 2.3uV/℃ 2.7V~5.5V 2.7nV/√Hz@10kHz 220mA 250uV 28MHz 4.5mA 500pA 6V Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS
+Search 
+U5
+NCP1117-3.3_SOT223
+Package_TO_SOT_SMD:SOT-223-3_TabPin2
+NCP1117ST33T3G
+C26537
+0.003%Vout 0℃~+125℃@(Ta) 1 1.2V@(800mA) 1A 20V 3.3V 62dB@(120Hz) 6mA Fixed Over Current Protection Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS
+Search 
+U6
+W25Q128JVS
+Package_SO:SOIC-8_5.3x5.3mm_P1.27mm
+W25Q128JVSIQ
+C97521
+-40℃~+85℃ 100,000 Cycles 120ms@(32KB) 128Mbit 133MHz 1uA 2.7V~3.6V 20 Years 3ms SPI SOIC-8-208mil NOR FLASH ROHS
+Search 
+U7
+RP2040
+RP2040_minimal:RP2040-QFN-56
+RP2040
+C2040
+12bit 133MHz 30 LQFN-56(7x7) Microcontrollers (MCU/MPU/SOC) ROHS
+Search 
+Y1
+ABM8-272-T3
+Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm
+ABM8-272-T3
+C20625731
+SMD3225-4P Crystals ROHS
